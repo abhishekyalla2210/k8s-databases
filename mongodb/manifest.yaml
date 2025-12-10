@@ -39,7 +39,7 @@ metadata:
     project: roboshop
 spec:
   replicas: 2
-  ServiceName: mongodb-headless
+  serviceName: "mongodb-headless"
   selector:
     matchLabels:
       purpose: mongodb
