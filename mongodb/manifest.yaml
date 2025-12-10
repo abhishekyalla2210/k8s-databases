@@ -56,8 +56,8 @@ spec:
           ports:
             - containerPort: 27017
           volumeMounts:
-            name: mongodb
-            mountPath: /data/db
+           - name: mongodb
+             mountPath: /data/db
 
 
   volumeClaimTemplates:
