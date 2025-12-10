@@ -9,7 +9,7 @@ spec:
     purpose: mongodb
     project: roboshop
   ports:
-    - protocal: TCP
+    - protocol: TCP
       port: 27017
       targetPort: 27017
 ---
@@ -24,7 +24,7 @@ spec:
     purpose: mongodb
     project: roboshop
   ports:
-    - protocal: TCP
+    - protocol: TCP
       port: 27017
       targetPort: 27017
 ---
